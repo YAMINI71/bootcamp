@@ -14,6 +14,7 @@ class TopBar extends StatelessWidget {
       color: Colors.black,
       child: Row(
         children: [
+          const SizedBox(width: 10, height: 50),
           CircleAvatar(
             maxRadius: 35,
             backgroundImage: AssetImage('assets/profile.png'),
@@ -39,6 +40,21 @@ class TopBar extends StatelessWidget {
                   )),
             ],
           ),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: <Widget>[
+              new Container(
+                  margin: EdgeInsets.all(10),
+                  width: 90,
+                  height: 70,
+                  decoration: new BoxDecoration(
+                      //shape: BoxShape.rectangle,
+                      image: new DecorationImage(
+                          fit: BoxFit.fill,
+                          image: new NetworkImage(
+                              'https://www.teahub.io/photos/full/28-289413_butterfly-black-vector-design-hd-wallpapers-white-pictures.jpg'))))
+            ],
+          )
         ],
       ),
     );

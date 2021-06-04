@@ -14,10 +14,11 @@ class HomePageScreen extends StatelessWidget {
         body: SafeArea(
             child: Column(
       children: [
-        TopBar(title: 'R△V I', subtitle: '3D Artist | Video Editor | Photographer',),
+        TopBar(
+          title: 'R△V I',
+          subtitle: '3D Artist | Video Editor | Photographer',
+        ),
       ],
     )));
   }
 }
-
-
