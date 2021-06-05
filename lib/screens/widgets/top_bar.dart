@@ -45,8 +45,8 @@ class TopBar extends StatelessWidget {
             children: <Widget>[
               new Container(
                   margin: EdgeInsets.all(10),
-                  width: 90,
-                  height: 70,
+                  width: 80,
+                  height: 60,
                   decoration: new BoxDecoration(
                       //shape: BoxShape.rectangle,
                       image: new DecorationImage(
