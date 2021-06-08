@@ -38,7 +38,7 @@ class TopBar extends StatelessWidget {
                   color: Colors.white,
                 ),
               ),
-              //const SizedBox(height: 5),
+              const SizedBox(height: 5),
               Text(subtitle,
                   style: TextStyle(
                     fontSize: 15,
