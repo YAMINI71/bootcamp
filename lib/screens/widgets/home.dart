@@ -83,7 +83,7 @@ class HomePageScreen extends StatelessWidget {
                   borderRadius: BorderRadius.all(Radius.circular(10)),
                   image: new DecorationImage(
                       image: NetworkImage(
-                          'https://lh3.googleusercontent.com/proxy/K7kHntZ9LxMedbJVfJix22ke3UP21Crgo7x1K4pVlcRh-s9GaxEVmHkAaSQF5sCbO9o0GzKzXxhlcVkiJWQH78ApocdhDNhB6cmlV_qvnLItW9yJxqJWy7e_RpPqb9mFS_UkmxohRLk15w'),
+                          'https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v461-taus-05-modernblackandwhite_1.jpg?w=1000&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=580378d5de742651668a60e23fcfc9ad'),
                       fit: BoxFit.cover)),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
